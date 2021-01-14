@@ -1,0 +1,16 @@
+@import '../../styles/index.scss';
+
+td {
+  border: 2px solid $secondary;
+  height: 30px;
+}
+.colored {
+  background-color: $secondary;
+  font-size: 18px;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  min-height: 220px;
+}

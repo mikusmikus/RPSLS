@@ -1,0 +1,62 @@
+@import "../../styles/index.scss";
+
+.button {
+  position: relative;
+  background-color: $secondary;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  outline: none;
+  border: 0;
+  transition: all 0.2s;
+  margin: 10px 2px;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.9;
+    transform: scale(1.2);
+  }
+  &:active {
+    transform: scale(1.1);
+  }
+  &:hover >span {
+    visibility: visible;
+  }
+}
+
+.restart {
+  background-color: $secondary;
+  color: $primary;
+  outline: none;
+  max-width: 200px;
+  border: 0;
+  transition: all 0.2s;
+  font-size: 24px;
+  margin: 0 auto;
+  font-family: "Potta One", cursive;
+  padding: 5px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.9;
+    transform: scale(1.2);
+  }
+  &:active {
+    transform: scale(1.1);
+  }
+}
+
+.popup {
+  visibility: hidden;
+  position: absolute;
+  width: 120px;
+  font-family: "Potta One", cursive;
+  background-color: $secondary;
+  color: $primary;
+  text-align: center;
+  border-radius: 6px;
+  font-size: 20px;
+  padding: 5px 0;
+  top: -45px;
+  left: -30px;
+  z-index: 3;
+}

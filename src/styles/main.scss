@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+
+$mainColor: #8ecae6;
+$primary: #023047;
+$secondary: #fb7100;
+$success: #ffb703;
+$danger: #219ebc;
+
+body {
+  box-sizing: border-box;
+  font-family: 'Potta One', cursive;
+  background-color: $mainColor;
+  color: $primary;
+  margin: 0;
+}
