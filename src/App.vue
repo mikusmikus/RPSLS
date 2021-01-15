@@ -1,7 +1,7 @@
 <template>
-  <H1 v-show="preGameAnimation" :class="preGameAnimation && 'HeadingAnimation'"
-    >WELCOME, FRIEND!</H1
-  >
+  <H1 v-show="preGameAnimation" :class="preGameAnimation && 'HeadingAnimation'">
+    WELCOME, FRIEND!
+  </H1>
   <div :class="preGameAnimation && 'animation'">
     <div class="container container-fluid">
       <Header :statistic="statistic" :names="names"> </Header>
